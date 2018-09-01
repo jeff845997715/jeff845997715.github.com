@@ -1,0 +1,209 @@
+html, body {
+    height: 100%;
+}
+body {
+    background-color: #f2f2f2;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    display: block;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td, img, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.clear {
+	clear: both;
+}
+.main {
+    margin-top: 90px;
+}
+.maincontent {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 65px;
+    border: 1px solid #e8e8e8;
+    letter-spacing: 0.4px;
+    font-size: 14px;
+    color: #666;
+    -webkit-box-shadow: 0 0 20px rgba(50,50,50,0.1);
+    box-shadow: 0 0 20px rgba(50,50,50,0.1);
+}
+.submit-site {
+    background-color: #eee;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+.wbdCv-baseLeft {
+    position: relative;
+    overflow: hidden;
+    padding: 0 0 30px 0;
+    margin-bottom: 30px;
+    background: #fff;
+    border-bottom: 3px solid #ebebeb;
+}
+.wbdCv-baseLeft:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 130px;
+    height: 5px;
+    background: #000;
+}
+.headItem{
+	float: left;
+    width: 150px;
+}
+.head-con{
+	border: 4px solid #e5e5e5;
+    background-color: #e5e5e5;
+    width: 121px;
+    height: 158px;
+}
+.introItem{
+	float: left;
+    width: 570px;
+}
+.introItem .name-con .name{
+	color: #222;
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 30px;
+}
+.introItem .name-con .word {
+    line-height: 1.2;
+}
+.introItem .info-con .info-list:before {
+    top: 5px;
+    right: -10px;
+    position: absolute;
+    content: "";
+    width: 1px;
+    border-left: 2px solid #b8b8b8;
+    height: 14px;
+}
+.introItem .info-con .info-list {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+}
+.moduleItem {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.moduleItem .module_item_title {
+    font-size: 18px;
+    word-break: break-all;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.moduleItem .inte-list {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 20px;
+    border: 1px dashed transparent;
+    cursor: pointer;
+}
+.moduleItem .edu{
+	display: block;
+	margin: 0;
+}
+.moduleItem .school{
+    width: 280px;
+    float: left;
+}
+.moduleItem .post{
+	width: 260px;
+	float: left;
+}
+.moduleItem .time{
+	position: relative;
+    width: 129px;
+    float: right;
+    text-align: right;
+}
+.moduleItem .skill-list {
+    width: 180px;
+    margin: 25px 68px 0 0;
+    float: left;
+}
+.moduleItem .skill-head span{
+	display: block;
+    margin: 0 0 0 0;
+}
+.moduleItem .skill-title{
+	float: left;
+	width: 60%;
+}
+.moduleItem .skill-level{
+	float: left;
+	width: 40%;
+}
+.moduleItem .skill-slider {
+    position: relative;
+    width: 180px;
+}
+.moduleItem .skill-slider s {
+    display: inline-block;
+    width: 180px;
+    height: 10px;
+    background: #f4f4f4;
+}
+/** 一般 **/
+.moduleItem .skill-slider s .skill-average {
+	display: block;
+    background-color: #a2a2a2;
+    width: 25%;
+    height: 10px;
+}
+/** 良好 **/
+.moduleItem .skill-slider s .skill-good {
+	display: block;
+    background-color: #a2a2a2;
+    width: 50%;
+    height: 10px;
+}
+/** 熟练 **/
+.moduleItem .skill-slider s .skill-advanced {
+	display: block;
+    background-color: #a2a2a2;
+    width: 80%;
+    height: 10px;
+}
+/** 精通 **/
+.moduleItem .skill-slider s .skill-expert {
+	display: block;
+    background-color: #a2a2a2;
+    width: 90%;
+    height: 10px;
+}
+.moduleItem .hobby-list {
+    margin: 0 0 20px 0;
+}
+.moduleItem .hobby-list a{
+	font-size: 28px;
+    display: block;
+    text-align: center;
+    line-height: 70px;
+    width: 75px;
+    height: 70px;
+    border: 1px solid #92a2b2;
+    border-radius: 4px;
+}
+.moduleItem .hobby-list .hobby-title {
+	display: block;
+    line-height: 26px;
+    width: 75px;
+    text-align: center;
+}
+.moduleItem .inte-list p{
+    text-indent: 2em;
+}
